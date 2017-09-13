@@ -1,0 +1,529 @@
+*{
+	border:0;
+	margin:0;
+	padding:0; 
+}
+
+body{
+    background-image: url(imag/imagen2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-size: 1900px 1300px;
+
+}
+
+#contenedor{
+    background-color: #A9A9A9;
+	margin-top: 5px;
+	height: 1100px;
+	width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+header{
+background:#708090;
+    width: 1200px;
+	height: 100px;
+
+}
+
+header h1{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#titulo{
+    background:#708090;
+    float: right;
+    width: 800px;
+	height: 50px; 
+
+}
+#titulo p{
+
+	color:  #FF804C;
+    font-family: arial;
+    font-size: 40px;
+    padding-top: 30px;
+ 
+}
+
+
+
+
+#section1{
+	background:#708090;
+	width: 1170px;
+	height: 345px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+
+#section2{
+	background:#708090;
+	width: 1170px;
+	height: 345px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+
+}
+
+#section3{
+	background:#708090;
+	width: 1170px;
+	height: 345px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+
+#final{
+	background:#ccc;
+	width: 1200px;
+	height: 100px;
+}
+
+
+#section1 #bloque1{
+	background-image: url("imag/gym2.jpg" );
+	background-size: 570px 350px;
+	width:570px; 
+	height:350px;
+	float: left;
+
+}
+
+div#info {
+	position: absolute;
+	overflow: hidden;
+	width:570px; 
+	height:350px;
+	background-color: rgba(31,31,31,0.9);
+	-webkit-transition: opacity 0.3s;
+	opacity: 0;
+}
+
+div#bloque1:hover div#info{
+	opacity: 1;
+
+}
+
+p#gym{
+
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	position: absolute; ;
+	-webkit-transition: margin 0.3s;
+	margin-left: -50px;
+    
+
+}
+
+div#bloque1:hover p#gym{
+	margin-left: 225px;
+}
+
+p#gym2{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque1:hover p#gym2{
+	margin-top: 70px;
+}
+
+a#info1{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque1:hover a#info1{
+	margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+#section1 #bloque2{
+	background-image: url("imag/torneos2.jpg");
+	background-size: 570px 350px;
+	width:570px; 
+	height:350px;
+	float: right;
+
+}
+
+div#info2 {
+	position: absolute;
+	overflow: hidden;
+	width:570px; 
+	height:350px;
+	background-color: rgba(31,31,31,0.9);
+	-webkit-transition: opacity 0.3s;
+	opacity: 0;
+}
+
+div#bloque2:hover div#info2{
+	opacity: 1;
+
+}
+
+p#torneo{
+
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	position: absolute; ;
+	-webkit-transition: margin 0.3s;
+	margin-left: -50px;
+    
+
+}
+
+div#bloque2:hover p#torneo{
+	margin-left: 252px;
+}
+
+p#torneo2{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque2:hover p#torneo2{
+	margin-top: 70px;
+}
+
+a#info3{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque2:hover a#info3{
+	margin-top: 70px;
+}
+
+
+
+
+
+
+
+#section2 #bloque3{
+	background-image: url("imag/recreacion2.jpg");
+	background-size: 570px 350px;
+	width:570px; 
+	height:350px;
+	float: left;
+}
+
+div#info4 {
+	position: absolute;
+	overflow: hidden;
+	width:570px; 
+	height:350px;
+	background-color: rgba(31,31,31,0.9);
+	-webkit-transition: opacity 0.3s;
+	opacity: 0;
+}
+
+div#bloque3:hover div#info4{
+	opacity: 1;
+
+}
+
+p#recreacion{
+
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	position: absolute; ;
+	-webkit-transition: margin 0.3s;
+	margin-left: -50px;
+    
+
+}
+
+div#bloque3:hover p#recreacion{
+	margin-left: 225px;
+}
+
+p#recreacion2{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque3:hover p#recreacion2{
+	margin-top: 70px;
+}
+
+a#info5{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque3:hover a#info5{
+	margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+#section2 #bloque4{
+	background-image: url("imag/lockers1.jpg");
+	background-size: 570px 350px;
+	width:570px; 
+	height:350px;
+	float: right;
+
+}
+
+div#info6 {
+	position: absolute;
+	overflow: hidden;
+	width:570px; 
+	height:350px;
+	background-color: rgba(31,31,31,0.9);
+	-webkit-transition: opacity 0.3s;
+	opacity: 0;
+}
+
+div#bloque4:hover div#info6{
+	opacity: 1;
+
+}
+
+p#locker{
+
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	position: absolute; ;
+	-webkit-transition: margin 0.3s;
+	margin-left: -50px;
+    
+
+}
+
+div#bloque4:hover p#locker{
+	margin-left: 250px;
+}
+
+p#locker2{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque4:hover p#locker2{
+	margin-top: 70px;
+}
+
+a#info7{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque4:hover a#info7{
+	margin-top: 70px;
+}
+
+
+
+
+
+
+#section3 #bloque5 {
+	background-image: url("imag/deportes1.jpg");
+	background-size: 570px 350px;
+	width:570px; 
+	height:350px;
+	float: center;
+
+}
+
+div#info8 {
+	position: absolute;
+	overflow: hidden;
+	width:570px; 
+	height:345px;
+	background-color: rgba(31,31,31,0.9);
+	-webkit-transition: opacity 0.3s;
+	opacity: 0;
+}
+
+div#bloque5:hover div#info8{
+	opacity: 1;
+
+}
+
+p#deportes{
+
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	position: absolute; ;
+	-webkit-transition: margin 0.3s;
+	margin-left: -50px;
+    
+
+}
+
+div#bloque5:hover p#deportes{
+	margin-left: 250px;
+}
+
+p#deportes2{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque5:hover p#deportes2{
+	margin-top: 70px;
+}
+
+a#info9{
+	padding-top: 10px;
+	color:#fff;
+    font-family: arial;
+    font-size: 21px;
+	margin: auto;
+	width: 500px;
+	text-align: center;
+    margin-top: 360px;
+    -webkit-transition: margin 0.33s;
+
+}
+
+div#bloque5:hover a#info9{
+	margin-top: 70px;
+}
+
+
+
+#bloque2 img,#bloque3 img,#bloque4 img {
+	
+	width:570px; 
+	height:350px;
+
+}
+
+#bloque5 img {
+	
+	width:570px; 
+	height:345px;
+
+}
+
+#section1 #info{
+	width:570px; 
+	height:350px;
+	background-color: rgba(31,31,31,0.9);
+} 
+
+#final p{
+    color: #f21;
+    font-family: cursive;
+    font-size: 15px;
+    padding-top: 17px;
+}
+
+#salir{
+    font-size: 50px;
+    padding-top: 0px;
+}
