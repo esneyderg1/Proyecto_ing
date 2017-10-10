@@ -4,36 +4,38 @@
 	include 'Conexion.php';
 ?>
 
-			<form id='Registar' action='' method='post'>
+			<form id='Registar' action='' method='post' >
 			<CENTER>
 				</br>
 				</br>
-				<input type='text' name='nom' placeholder= 'Nombre' />
+				<input type='text' name='nom' placeholder= 'Nombre' required="" />
 				</br>
-				<input type='text' name='carr' placeholder= 'Carrera' />
+				<input type='text' name='carr' placeholder= 'Carrera' required="" />
 				</br>
-				<input type='text' name='cedu' placeholder= 'Cedula' />
+				<input type='text' name='cedu' placeholder= 'Cedula' required="" />
 				<p> Sexo: </p>
-				<select id='Sexo' name='sex' >
+				<select id='Sexo' name='sex' required="" >
 					<option value='Mas'>Masculino</option>
 					<option value='Fem'>Femenino</option>	
 				</select>
 				<p> Cargo: </p> 
-				<select id='Cargo' name='carg'>
+				<select id='Cargo' name='carg' required="" >
 					
 					<option value='1'>Estudiante</option>
 					<option value='2'>Profesor</option>
 					<option value='3'>Empleado</option>	
 				</select>
 				</br>
-			    <input type='text'  name='usu' placeholder= 'Usuario'/>
+			    <input type='text'  name='usu' placeholder= 'Usuario' required="" />
 				</br>
-			    <input type='password'  name='contra' placeholder='contraseña' />
+			    <input type='password'  name='contra' placeholder='contraseña' required="" />
 				</br>
 				</br>
 				</br>			
-				<input type='submit' />
+				<input type='submit'/>
 			</form>
+
+
 <?php
 		if ($_POST) {
 

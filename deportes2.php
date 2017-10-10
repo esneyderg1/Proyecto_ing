@@ -79,15 +79,15 @@
 			
 			<CENTER>
 			    <p>Ingresar Clases </p>
-				<input type='text' name='hora' placeholder= 'Hora' />
+				<input type='text' name='hora' placeholder= 'Hora' required=""/>
 				</br>
-				<input type='text' name='dias' placeholder= 'Dias' />
+				<input type='text' name='dias' placeholder= 'Dias' required=""/>
 				</br>
-			    <input type='text'  name='lugar' placeholder= 'Lugar'/>
+			    <input type='text'  name='lugar' placeholder= 'Lugar' required=""/>
 			   </br>
-			    <input type='text'  name='nd' placeholder= 'Nombre del deporte'/>
+			    <input type='text'  name='nd' placeholder= 'Nombre del deporte' required=""/>
 			    </br>
-			    <input type='text'  name='codigocl' placeholder= 'Codigo de clase'/>
+			    <input type='text'  name='codigocl' placeholder= 'Codigo de clase' required=""/>
 				</br>
 				</br>		
 				<input type='submit' value= 'Registrar'/>

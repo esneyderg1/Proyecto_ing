@@ -77,11 +77,11 @@
 			
 			<CENTER>
 			    <p>Ingresar Recreacion </p>
-				<input type='text' name='Ser' placeholder= 'Serial' />
+				<input type='text' name='Ser' placeholder= 'Serial' required=""/>
 				</br>
 				<input type='text' name='Ced' placeholder= 'Cedula' />
 				</br>
-			    <input type='text'  name='Ubi' placeholder= 'Ubicacion'/>
+			    <input type='text'  name='Ubi' placeholder= 'Ubicacion' required=""/>
 				</br>
 				</br>
 				</br>		

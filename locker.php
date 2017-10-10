@@ -2,7 +2,7 @@
   <?php
 	include 'Conexion.php';
 	
-	$resdatos=mysqli_query($conexion,"SELECT * FROM locker where cedula is null");
+	$resdatos=mysqli_query($conexion,"SELECT * FROM locker where cedula='' ");
 	
 
 

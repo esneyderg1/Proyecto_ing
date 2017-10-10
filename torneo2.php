@@ -82,19 +82,19 @@
 			
 			<CENTER>
 			    <p>Ingresar deporte </p>
-				<input type='text' name='lug' placeholder= 'Lugar' />
+				<input type='text' name='lug' placeholder= 'Lugar' required=""/>
 				</br>
-				<input type='text' name='fecha' placeholder= 'Fecha y Hora' />
+				<input type='text' name='fecha' placeholder= 'Fecha y Hora' required=""/>
 				</br>
 				<p> Nombre del deporete: </p>
-				<select id='deporte' name='depo' >
+				<select id='deporte' name='depo' required="">
 					<option value='Futbol'>Futbol</option>
 					<option value='Baloncesto'>Baloncesto</option>
 					<option value='Voleyball'>Voleyball</option>
 					<option value='Tenis'>Tenis</option>		
 				</select>
 				</br>
-			    <input type='text'  name='codigot' placeholder= 'Codigo del deporte'/>
+			    <input type='text'  name='codigot' placeholder= 'Codigo del deporte' required=""/>
 				</br>
 				</br>		
 				<input type='submit' value= 'Registrar'/>
