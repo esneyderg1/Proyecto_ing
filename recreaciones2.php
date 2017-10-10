@@ -77,17 +77,17 @@
 			
 			<CENTER>
 			    <p>Ingresar Recreacion </p>
-				<input type='text' name='encarg' placeholder= 'Encargado' required=""/>
+				<input type='text' name='encarg' placeholder= 'Encargado' />
 				</br>
-				<input type='text' name='fecha' placeholder= 'Fecha y Hora' required=""/>
+				<input type='text' name='fecha' placeholder= 'Fecha y Hora' />
 				</br>
-			    <input type='text'  name='tipo' placeholder= 'Tipo' required=""/>
+			    <input type='text'  name='tipo' placeholder= 'Tipo'/>
 				</br>
-				<input type='text'  name='Np' placeholder= 'Numero de personas' required=""/>
+				<input type='text'  name='Np' placeholder= 'Numero de personas'/>
 				</br>
-				<input type='text'  name='lugar' placeholder= 'Lugar' required=""/>
+				<input type='text'  name='lugar' placeholder= 'Lugar'/>
 				</br>
-				<input type='text'  name='codigo' placeholder= 'Codigo' required=""/>
+				<input type='text'  name='codigo' placeholder= 'Codigo'/>
 				</br>
 				</br>		
 				<input type='submit' value= 'Registrar'/>
