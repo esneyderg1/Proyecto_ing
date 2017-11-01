@@ -8,7 +8,7 @@
 			<CENTER>
 				</br>
 				</br>
-				<input type='text' name='nom' placeholder= 'Nombre'  />
+				<input type='text' name='nom' placeholder= 'Nombre' required="" />
 				</br>
 				<input type='text' name='carr' placeholder= 'Carrera' />
 				</br>
