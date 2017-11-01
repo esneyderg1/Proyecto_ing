@@ -8,11 +8,11 @@
 			<CENTER>
 				</br>
 				</br>
-				<input type='text' name='nom' placeholder= 'Nombre' required="" />
+				<input type='text' name='nom' placeholder= 'Nombre'  />
 				</br>
-				<input type='text' name='carr' placeholder= 'Carrera' required="" />
+				<input type='text' name='carr' placeholder= 'Carrera' />
 				</br>
-				<input type='text' name='cedu' placeholder= 'Cedula' required="" />
+				<input type='text' name='cedu' placeholder= 'Cedula'  />
 				<p> Sexo: </p>
 				<select id='Sexo' name='sex' required="" >
 					<option value='Mas'>Masculino</option>
